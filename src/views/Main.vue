@@ -6,6 +6,7 @@
       <SkillsPage />
       <ProjectsPage />
       <ContactPage />
+      <div :style="{ width: '100%', height: '65px' }"></div>
       <NavigationBar />
     </v-responsive>
   </v-container>

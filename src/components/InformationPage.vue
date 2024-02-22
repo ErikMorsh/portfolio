@@ -1,6 +1,6 @@
 <template>
   <div id="info" class="info observe box" v-resize="onResize">
-    <div class="w-100 h-50">
+    <div class="w-100" style="height: 60%">
       <v-sheet class="h-100">
         <v-row class="about-row-1 h-100 ma-0 py-5 px-0 px-sm-15 mx-auto">
           <v-col
@@ -80,8 +80,10 @@
               v-intersect="onIntersect"
               :class="titleInters[3] ? 'moveUpfadeIn' : ''"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              esse molestias vero suscipit facilis magni dicta eos, tempora
+              I possess a strong foundation in front-end development,
+              particularly in TypeScript and Vue.js. I have gained proficiency
+              in essential frontend development libraries such as Vuetify, Vuex,
+              and Vue Router.
             </p>
             <p
               id="intro-row-5"
@@ -89,14 +91,16 @@
               v-intersect="onIntersect"
               :class="titleInters[4] ? 'moveUpfadeIn' : ''"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              esse molestias vero suscipit facilis magni dicta eos,
+              My transition into web development has been focused on Vue.js,
+              building upon my previous experience as a Java developer.I bring a
+              solid understanding of Object-Oriented Programming (OOP) and
+              functional programming concepts to my work.
             </p>
           </v-col>
         </v-row>
       </v-sheet>
     </div>
-    <div class="w-100 h-50">
+    <div class="w-100" style="height: 40%">
       <v-row class="h-100 ma-0">
         <v-col
           cols="12"
@@ -190,16 +194,18 @@
             >
               Checkout my skill set
             </h1>
-            <p class="text-cLight">
+            <p>
               For more information about my knowledge, skill set and experiences
               you can download the .pdf file from here.
             </p>
-            <v-btn
-              class="w-75 mt-5 text-caption text-uppercase text-cLight"
-              variant="outlined"
-              color="white"
-              >download resume (.pdf file)</v-btn
-            >
+            <a href="morshedzade-cv.pdf">
+              <v-btn
+                class="w-75 mt-5 text-caption text-uppercase"
+                variant="outlined"
+                color="white"
+                >resume</v-btn
+              >
+            </a>
           </div>
         </v-col>
       </v-row>
@@ -338,9 +344,9 @@ export default {
   background-attachment: fixed;
   background-image: linear-gradient(
       to bottom,
-      rgb(var(--v-theme-cDark)),
-      rgba(var(--v-theme-cDark), 0.5),
-      rgba(var(--v-theme-cDark), 0.3)
+      rgb(33, 33, 33),
+      rgba(33, 33, 33, 0.6),
+      rgba(33, 33, 33, 0.4)
     ),
     url(../assets/flower.jpg);
 }

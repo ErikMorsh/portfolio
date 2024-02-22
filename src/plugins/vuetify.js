@@ -51,7 +51,7 @@ export default createVuetify({
           // We have omitted the standard color properties here to emphasize the custom one that we've added
           cLight: '#37474F',
           cDark: '#ECEFF1',
-          cPrimary: '#383838',
+          cPrimary: '#85DCBf',
           cSecondary: '#00E676',
           cError: '#00796B',
           cWarning: '#FF6F00',

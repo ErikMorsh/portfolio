@@ -1,8 +1,8 @@
 <template>
   <div id="contact" class="contact observe d-flex justify-center align-center">
-    <div class="container h-100 w-100 text-blue-grey-darken-3">
+    <div class="container w-100 text-blue-grey-darken-3">
       <h1
-        class="mt-10 mt-sm-10 text-h5 text-sm-h3 text-cError"
+        class="mt-10 mb-5 mt-sm-10 text-h5 text-sm-h3 text-cError"
         style="text-transform: uppercase !important"
       >
         Get In touch

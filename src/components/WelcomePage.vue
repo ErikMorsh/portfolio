@@ -1,14 +1,14 @@
 <template>
   <div id="home" class="home observe box" v-resize="onResize">
-    <v-row class="w-100 bg-cPrimary pa-0 ma-0">
-      <v-col cols="2">
-        <v-btn @click="handleThemeClick" icon>
+    <v-row class="bg-cPrimary pa-0 ma-0 d-flex justify-space-between">
+      <v-col cols="3" class="d-flex justify-start">
+        <v-btn width="40" height="40" @click="handleThemeClick" icon>
           <v-icon>mdi-theme-light-dark</v-icon>
         </v-btn>
       </v-col>
       <v-col
         cols="8"
-        class="pa-0 d-flex justify-center flex-row-reverse"
+        class="pa-0 d-flex justify-start flex-row-reverse"
         v-if="navVisibility"
       >
         <v-hover>
@@ -73,13 +73,6 @@
             </v-btn>
           </template>
         </v-hover>
-      </v-col>
-      <v-col cols="2">
-        <v-btn>
-          <v-icon>mdi-map-marker</v-icon>
-
-          <span>Nearby</span>
-        </v-btn>
       </v-col>
     </v-row>
 

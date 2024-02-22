@@ -22,18 +22,21 @@ import SkillsPageOption from './SkillsPageOption.vue';
               Let's know me better
             </h1>
             <p class="mt-5 mt-sm-0 text-cDark">
-              I embarked programing from first year of colleg and obtained many
-              experiences through my jurney.<span class="d-none d-sm-inline"
-                >The quality of work and better pace to solve the problems are
-                my utilities in programing towards reaching my aims.</span
+              I embarked programming from first year of college and obtained
+              many experiences throughout my journey.<span
+                class="d-none d-sm-inline"
+                >Quality work and better pace to solve the problems are my
+                utilities in programing to achieve my objectives.</span
               >
             </p>
-            <v-btn
-              class="w-75 d-none d-sm-block"
-              variant="tonal"
-              color="cSecondary"
-              >download resume (.pdf file)</v-btn
-            >
+            <a href="morshedzade-cv.pdf">
+              <v-btn
+                class="w-75 d-none d-sm-block"
+                variant="tonal"
+                color="cSecondary"
+                >resume</v-btn
+              >
+            </a>
           </div>
         </v-col>
         <v-col cols="12" sm="7" class="pt-5 pt-sm-15">
@@ -141,7 +144,7 @@ export default {
           info: [
             {
               infoTitle: "techinical",
-              content: "Bonab (softwear enginearing)",
+              content: "Bonab (softwear engineering)",
             },
             {
               infoTitle: "skills",

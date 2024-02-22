@@ -14,10 +14,11 @@
           </h1>
           <p class="mt-5 text-white">
             Here is some of the projects that I'm working on them and hope you
-            like them.
+            like it.
             <span class="d-none d-sm-inline">
-              These projects are considring bestpractices for veriety of
-              circumstances and nice lookin and easy using apps.</span
+              These projects are considering best practices for variety of
+              circumstances and nice looking and user-friendly web
+              applications.</span
             >
           </p>
         </div>
@@ -58,9 +59,9 @@ const projects = reactive([
     title: "learn fast",
     feature: "50+ features of wonder",
     description:
-      "Learn fast is a platform that its main goal is to force the client learn whatever they want in 12 steps just like game.",
+      "Learn fast is a platform that its main goal is to force the client learn whatever they want in 12 easy steps just like a game.",
     shortDesc:
-      "Learn fast is a platform that its main goal is to force the client learn. ",
+      "Learn fast is a platform that its main goal is to force the client to learn. ",
     gitRipo: "https://github.com/ErikMorsh/learn-fast.git",
     techs: [
       {
@@ -83,9 +84,9 @@ const projects = reactive([
     title: "portfolio",
     feature: "100+ implemented skills",
     description:
-      "This project represents the power of Vue js and Vutify component styling tool in building a desirable and lovely looking landing pages.",
+      "This project represents the power of Vue.js and Vuetify component styling tool in creating attractive landing pages.",
     shortDesc:
-      "This project represents the power of Vue js and Vutify for landing pages. ",
+      "This project represents the power of Vue.js and Vuetify when creating landing pages. ",
     gitRipo: "https://github.com/ErikMorsh/portfolio.git",
     techs: [
       {
@@ -104,8 +105,9 @@ const projects = reactive([
     title: "Admin Panel",
     feature: "Compound Implemented Techs",
     description:
-      "This project has lunched but not has been finished yet. The main goal of this project is to benefit of Full Java Script power.",
-    shortDesc: "The main goal of this project is to benefit of full JS power.",
+      "This project has lunched but not has been finished yet. The main goal of this project is to benefit the full power of Java Script.",
+    shortDesc:
+      "The main goal of this project is to benefit the full power of JS.",
     gitRipo: "https://github.com/ErikMorsh/admin-panel.git",
     techs: [
       {
